@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--By Supcan TreeList -->
+<TreeList>
+    <Properties autoBreakLine="1" isShowRuler="true" fadeInStep="0"  addRowAble="false" deleteRowAble="false"  borderWidth=1 borderRound=0 borderColor="#55aaff" rowHeight="26px" totalBgColor="#D3D3D3" subTotalBgColor="#DFDFDF" subtotalFontIndex="1" totalFontIndex="1" isFixTotalRow='true'></Properties>
+<Fonts>
+    <Font faceName="新宋体" Size='-12' />
+    <Font faceName="新宋体" Size='-12' Bold="true" />
+</Fonts>
+    <Cols>
+        <Col name="riqi" 	width="120"	align="center" sortAble="true" totalExpress="='合 计'" >日期</Col>
+        <Col name="djbh"	width="80" align="center" isHyperlink='true'>单据编号</Col>
+        <Col name="diancang" width="85" align="center" >店仓</Col>
+        <Col name="rktype"	width="85"	align="center" >入库类型</Col>
+        <Col name="gys"		width="85"	align="center" >供应商</Col>
+        <Col name="pingpai" width="85"	align="center" >品牌</Col>
+        <Col name="niandu"  width="45" align="center" >年度</Col>
+        <Col name="jijie"  	width="45"	align="center" >季节</Col>
+        <Col name="boduan"  width="45"	align="center" >波段</Col>
+        <Col name="xilie" 	width="85" align="center" >系列</Col>
+        <Col name="spdl"  	width="70"	align="center" >商品大类</Col>
+        <Col name="spxl"  	width="70" align="center" >商品小类</Col>
+        <Col name="pinming" width="85" align="center" >品名</Col>
+        <Col name="huohao"  width="90"	align="center" subtotalExpress="='合计'+@rows+'行'" totalExpress="='共'+@rows+'行'" subtotalAlign="center" isHyperlink='true'>货号</Col>
+        <Col name="yanse"  	width="85" align="center" >颜色</Col>
+        <Col name="chima"   width="40"	align="center" >尺码</Col>
+        <Col name="tm"   	width="100"	align="center" >条码/国际码</Col>
+        <Col name="dpj"  	width="70"	align="right"  displayMask="=if(data==0, '', data)"	datatype="double">吊牌价</Col>
+        <Col name="jj"  	width="70"	align="right"  displayMask="=if(data==0, '', data)"	datatype="double">进价</Col>
+        <Col name="shuliang" width="70" align="right"  displayMask="=if(data==0, '', data)"	datatype="int"	totalExpress="=@sum">数量</Col>
+        <Col name="dpjje"  	width="85"	align="right"  displayMask="=if(data==0, '', data)"	datatype="double"	totalExpress="=@sum">吊牌金额</Col>
+        <Col name="jjje"  	width="85"	align="right"  displayMask="=if(data==0, '', data)"	datatype="double"	totalExpress="=@sum">进价金额</Col>
+        <Col name="beizhu"  width="85"	align="center" >备注</Col>
+    </Cols>
+</TreeList>

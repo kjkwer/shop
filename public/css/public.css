@@ -1,0 +1,79 @@
+﻿/*全局字体尺寸*/
+*:not(strong){
+    font-size: 12px;
+}
+
+/*操作按钮父级div样式,它的下边框划分挤出的数据录入区*/
+
+/*操作按钮初始样式*/
+.button,#help_img{
+    cursor: pointer;
+}
+.button{
+    border: 0;
+    margin: 3px 1px 0 0;
+    width:50px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    color: #15428B;
+    float: left;
+    font-weight:normal;
+	background-color:rgba(0,0,0,0);
+}
+.button_hover:hover{
+    background:-moz-linear-gradient(top,#FFE27B,#FFFF00) !important;
+    color:#15428B !important;
+	border:1px solid #9BBDE8 !important;
+    cursor: pointer;
+}
+#help_img{/*使用帮助图标*/
+    float: right;
+    width: 15px;
+    height: 15px;
+    margin: 8px 5px 0 0;
+}
+/*数据表格高度*/
+#tab_body tr{
+    height: 24px;
+}
+/*数据表格样式*/
+.tabs{
+    width: 100%;
+    border: 1px solid #B7B7B7;
+    border-collapse: collapse;
+}
+/* 禁用按钮样式*/
+._button{
+    border: 0;
+    margin: 3px 1px 0 0;
+    width:50px;
+    height: 28px;
+    text-align: center;
+    font-size: 13px;
+    background-color:rgba(0,0,0,0);
+    border-radius:6px 6px 0 0;
+    float: left;
+    font-weight:normal;
+    cursor: pointer;
+}
+/*预备隐藏按钮属性*/
+.temp{
+    display: none;
+}
+
+optgroup{
+    font-style:normal;
+    font-weight: 100;
+    text-align: center;
+    background-color: #F2F2F2;
+}
+select option{
+    
+    text-align: left ;
+    background-color: #ffffff;
+}
+
+
+.colTd,#addtr td:first-child,#dataStart > div:nth-child(1) tr:nth-child(3) td:first-child{ border-color:#A2BAD9!important;}
+#suosuo_title td{ border-bottom-color:#A2BAD9!important;}
